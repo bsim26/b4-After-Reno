@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Brandon's Kitchen RENO 🔥</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/juxtapose.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .juxtapose {
+            max-width: 1600px;
+        }
+        
+        .jx-slider {
+            margin-top: 1em;
+        }
+
+        .heading {
+            font-size: 5em;
+            font-family: 'Merienda', cursive;
+        }
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+        
+            50% {
+                background-position: 100% 50%;
+            }
+        
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        h2 span.greyed {
+            color: rgba(255,255,255,0.4)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row d-flex justify-content-center">
+        <h2 class="heading text-center text-white">Before 🤢 After 😎</br><span class="greyed">Range Side</span></h2>
+        <div class="juxtapose text-center">
+            <img src="img/old-rs.jpg" data-label="Before" alt="Before" />
+            <img src="img/new-rs.jpg" data-label="After" alt="After" />
+        </div>
+        <h2 class="heading text-center pt-4"><span class="greyed">Sink Side</span></h2>
+        <div class="juxtapose">
+            <img src="img/old-ss.jpg" data-label="Before" alt="Before" />
+            <img src="img/new-ss.jpg" data-label="After" alt="After" />
+        </div>
+    </div>
+    </div>
+
+    <script src="js/juxtapose.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
